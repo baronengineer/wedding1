@@ -180,6 +180,11 @@ body{
     html{
         font-size: 40% !important;
     }
+
+    body {
+        padding-right: 5px !important; /* Nilai untuk layar mobile phone */
+      }
+
     .simply-countdown>.simply-section {
         padding: 40px !important;;
         margin: 3px !important;;
