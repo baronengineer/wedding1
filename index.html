@@ -188,37 +188,15 @@
       const offcanvas = document.querySelector('.offcanvas');
 
       hamburger.addEventListener('click', function () {
-        if (window.innerWidth > 768) { // Untuk layar laptop (lebar >= 992px)
+        
           stickyTop.style.overflow = 'visible';
-          stickyTop.style.marginLeft = '300px';
-          stickyTop.style.marginRight = '0px';
-          stickyTop.style.width = '50%';
-        } 
-        else if (window.innerWidth >= 425 && window.innerWidth <= 768) { // Untuk layar laptop (lebar >= 992px)
-          stickyTop.style.overflow = 'visible';
-          stickyTop.style.marginLeft = '210px';
-          stickyTop.style.marginRight = '0px';
-          stickyTop.style.width = '50%';
-        } 
-        else if(window.innerWidth < 425 && window.innerWidth >= 375 ){
-        stickyTop.style.overflow = 'visible';
-          stickyTop.style.marginLeft = '190px';
-          stickyTop.style.marginRight = '0px';
-          stickyTop.style.width = '50%';
-        }
-        else { // Untuk layar mobile (lebar < 992px)
-          stickyTop.style.overflow = 'visible';
-          stickyTop.style.marginLeft = '150px';
-          stickyTop.style.marginRight = '0px';
-          stickyTop.style.width = '55%';
-        }
+         
       });
 
       offcanvas.addEventListener('hidden.bs.offcanvas',function(){
         stickyTop.style.overflow = 'hidden';
-        stickyTop.style.marginLeft = '0px';
-        stickyTop.style.width = '100%'
-      })
+        
+      });
     </script>
   </body>
 </html>
