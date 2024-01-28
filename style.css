@@ -157,8 +157,8 @@ body{
 }
 
 .info .description{
-    font-size: 1rem;
-    font-weight: 300;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .info .card{
@@ -178,9 +178,9 @@ body{
 }
 
 .info .card-footer{
-    font-size: 0.9rem ;
+    font-size: 1rem ;
     border-top: 1px solid #999;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 
