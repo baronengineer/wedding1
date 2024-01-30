@@ -84,7 +84,7 @@ body{
     background-position: center; 
     min-height: 100vh;
     margin-top: -5.5rem;
-    padding-top: 15rem;
+    padding-top: 10rem;
     padding-bottom: 5rem;
 
 }
@@ -184,7 +184,7 @@ body{
 }
 
 .story, .gallery, .rsvp,.gifts{
-    padding-top: 10rem;
+    padding-top: 8rem;
     padding-bottom: 8rem;
 }
 
@@ -352,6 +352,36 @@ footer li{
     display: inline;
     margin: 1rem;
 }
+
+.audio-icon-wrapper{
+    width: 4rem;
+    height: 4rem;
+    font-size: 4rem;
+    position: fixed;
+    bottom: 2.5rem;
+    right: 2.5rem;
+    cursor: pointer;
+    color: white;
+    opacity: 0.5;
+    mix-blend-mode: difference;
+    animation: rotating 4s linear infinite;
+    transform-origin: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+}
+
+@keyframes rotating {
+    from{
+        transform: 0;
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
+
 /* media query */
 
 /* xl*/
